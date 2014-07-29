@@ -1,0 +1,32 @@
+{
+  "name": "node-html2article",
+  "version": "1.0.0",
+  "description": "The nodejs version of Html2Article",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stanzhai/node-html2article.git"
+  },
+  "keywords": [
+    "article",
+    "html2article",
+    "html",
+    "extract"
+  ],
+  "author": "Stan Zhai",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/stanzhai/node-html2article/issues"
+  },
+  "homepage": "https://github.com/stanzhai/node-html2article",
+  "dependencies": {
+    "entities": "^1.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.3",
+    "should": "^4.0.4"
+  }
+}
